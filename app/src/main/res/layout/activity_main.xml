@@ -21,10 +21,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
-        android:text="Button"
-        android:onClick="onBtnChangeTextClick"
+        android:text="Tekstas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvMain" />
+
+    <Button
+        android:id="@+id/btnChangeColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:text="Spalva"
+        android:onClick="onBtnChangeTextColorClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnChangeText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
